@@ -1,0 +1,46 @@
+body {
+    background-color: grey;
+}
+
+.zone {
+    margin: auto;
+    margin-top: 3%;
+    height: 600px;
+    width: 600px;
+    border: 1px solid;
+    background-color: blue;
+    position: relative;
+    overflow: hidden;
+}
+
+.ball {
+    border: 1px solid;
+    border-radius: 50px;
+    height: 55px;
+    width: 55px;
+    background-color: yellow;
+    position: absolute;
+}
+
+.score {
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    font-size: large;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.raquette {
+    border: 1px solid;
+    height: 25px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: green;
+}
